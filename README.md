@@ -15,3 +15,9 @@
 # References
 
 1. Tallulah S Andrews, Martin Hemberg, M3Drop: dropout-based feature selection for scRNASeq, Bioinformatics, Volume 35, Issue 16, August 2019, Pages 2865–2867, (https://doi.org/10.1093/bioinformatics/bty1044)
+
+2. Lause, J., Berens, P. & Kobak, D. Analytic Pearson residuals for normalization of single-cell RNA-seq UMI data. Genome Biol 22, 258 (2021). (https://doi.org/10.1186/s13059-021-02451-7)
+
+3. Hafemeister, C., Satija, R. Normalization and variance stabilization of single-cell RNA-seq data using regularized negative binomial regression. Genome Biol 20, 296 (2019). (https://doi.org/10.1186/s13059-019-1874-1)
+
+4. Svensson, V. Droplet scRNA-seq is not zero-inflated. Nat Biotechnol 38, 147–150 (2020). (https://doi.org/10.1038/s41587-019-0379-5)
