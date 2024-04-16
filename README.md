@@ -9,6 +9,8 @@
 #### The other is the more popularized implementation of analytical pearson residuals adapted from [Lause et al. (2021)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02451-7#availability-of-data-and-materials)
 
 
+#### We also take into consideration the variance stabilization technique implemented in [Seurat](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02584-9) and implement a wrapper of this function to compare how effectively different methods estimate pearson residuals.
+
 #### Both of these methods aim to deconvolute the underlying biology with scRNA-seq data by finding genes that significantly deviate from two separate models. Here we highlight the potential benefits and potential limitations of each.
 
 
@@ -21,3 +23,5 @@
 3. Hafemeister, C., Satija, R. Normalization and variance stabilization of single-cell RNA-seq data using regularized negative binomial regression. Genome Biol 20, 296 (2019). (https://doi.org/10.1186/s13059-019-1874-1)
 
 4. Svensson, V. Droplet scRNA-seq is not zero-inflated. Nat Biotechnol 38, 147–150 (2020). (https://doi.org/10.1038/s41587-019-0379-5)
+
+5. Choudhary, S., Satija, R. Comparison and evaluation of statistical error models for scRNA-seq. Genome Biol 23, 27 (2022). (https://doi.org/10.1186/s13059-021-02584-9)
